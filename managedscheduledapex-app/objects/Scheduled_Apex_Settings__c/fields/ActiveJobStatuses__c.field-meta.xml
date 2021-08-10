@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ActiveJobStatuses__c</fullName>
+    <defaultValue>&apos;QUEUED,PREPARING,PROCESSING,HOLDING&apos;</defaultValue>
+    <description>A comma separated list of which jobs statuses we consider as active...</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A comma separated list of which jobs statuses we consider as active...</inlineHelpText>
+    <label>Active Job Statuses</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

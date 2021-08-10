@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SortFlexQueue__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Controls if we attempt to sort the flex queue by priority.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Controls if we attempt to sort the flex queue by priority.</inlineHelpText>
+    <label>Sort Flex Queue</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

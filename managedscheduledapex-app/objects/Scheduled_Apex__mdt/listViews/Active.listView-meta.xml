@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active</fullName>
+    <columns>MasterLabel</columns>
+    <columns>JobName__c</columns>
+    <columns>Priority__c</columns>
+    <columns>MustRun__c</columns>
+    <columns>Scope__c</columns>
+    <columns>CronSchedule__c</columns>
+    <columns>Task_Owner_Name__c</columns>
+    <columns>NamespacePrefix__c</columns>
+    <columns>ClassName__c</columns>
+    <columns>JSON_Constructor__c</columns>
+    <columns>SkipTestClass__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Active</label>
+    <language>en_US</language>
+</ListView>

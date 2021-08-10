@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DayOfWeek__c</fullName>
+    <defaultValue>&apos;?&apos;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Day of Week formatted like a crontab entry.  Comma separated values, with a * and ? as wildcards.  1 is Monday, 7 is Sunday, you may use the first three letters instead of a number.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Day of week formatted like a crontab entry.  Comma separated values, with a * and ? as wildcards.  1 is Sunday, 7 is Saturday. You may use the first three letters instead of a number.  e.g. SUN-SAT</inlineHelpText>
+    <label>Day of Week</label>
+    <length>28</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

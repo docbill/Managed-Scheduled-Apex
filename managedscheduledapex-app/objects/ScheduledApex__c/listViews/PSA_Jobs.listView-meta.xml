@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PSA_Jobs</fullName>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <columns>NAME</columns>
+    <columns>ClassName__c</columns>
+    <columns>Hour__c</columns>
+    <columns>Minute__c</columns>
+    <columns>MustRun__c</columns>
+    <columns>NamespacePrefix__c</columns>
+    <columns>Priority__c</columns>
+    <columns>Scope__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NAME</field>
+        <operation>startsWith</operation>
+        <value>psa</value>
+    </filters>
+    <filters>
+        <field>NamespacePrefix__c</field>
+        <operation>equals</operation>
+        <value>pse</value>
+    </filters>
+    <label>PSA Jobs</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DayOfMonth__c</fullName>
+    <defaultValue>&apos;*&apos;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Day of month formatted like a crontab entry.  Comma separated values, with a * and ? as wildcard.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Day of month formatted like a crontab entry.  Comma separated values, with a * and ? as wildcard.  e.g. The first week of the month is 1-7.</inlineHelpText>
+    <label>Day of Month</label>
+    <length>32</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

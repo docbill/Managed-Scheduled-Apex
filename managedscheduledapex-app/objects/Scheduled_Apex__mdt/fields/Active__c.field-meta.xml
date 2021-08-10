@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Checked to indicate the job should be run. Do not mark entries that are only used for sorting as active.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Checked to indicate the job should be run. Do not mark entries that are only used for sorting as active.</inlineHelpText>
+    <label>Is Active?</label>
+    <type>Checkbox</type>
+</CustomField>

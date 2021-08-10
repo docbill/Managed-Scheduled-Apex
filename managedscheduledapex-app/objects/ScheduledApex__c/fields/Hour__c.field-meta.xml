@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hour__c</fullName>
+    <defaultValue>&apos;-&apos;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>What time of day to run this task.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What time of day to run this task.  Allowed values are a number 0 through 23, a range like 6-12, comma separated values or ranges, or * which is equivalent to 0-23.  Lastly a - may be used to indicate the job should not run.</inlineHelpText>
+    <label>Hour</label>
+    <length>32</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

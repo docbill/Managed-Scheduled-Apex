@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Year_OutOfBoundsCheck</fullName>
+    <active>true</active>
+    <description>Check that no year value is less than 2000 or greater than 2099.</description>
+    <errorConditionFormula>AND(Active__c,REGEX(&apos;,&apos;+Year__c+&apos;,&apos;,&apos;[2][1-9][0-9][0-9]|[3-9][0-9][0-9][0-9]|[^/0-9][0-9][^0-9]|[^/0-9][0-9][0-9][^0-9]|[^0-9][0-9][0-9]|[0-9][^0-9]|[0-9][0-9][0-9][0-9][0-9]&apos;))</errorConditionFormula>
+    <errorDisplayField>Year__c</errorDisplayField>
+    <errorMessage>No value in the range can be less than 2000 or greater than 2099.</errorMessage>
+</ValidationRule>

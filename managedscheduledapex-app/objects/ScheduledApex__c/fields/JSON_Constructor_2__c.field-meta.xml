@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JSON_Constructor_2__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Overflow for JSON contructors greater than 256 characters.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Overflow for JSON contructors greater than 256 characters.</inlineHelpText>
+    <label>JSON Constructor 2</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

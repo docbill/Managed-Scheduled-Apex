@@ -1,0 +1,26 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true
+        },
+        {
+            "path": "managedscheduledapex-app",
+            "default": false,
+            "package": "ManagedScheduledApex",
+            "versionName": "ver 1.0.1",
+            "versionNumber": "1.0.1.NEXT"
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "52.0",
+    "packageAliases": {
+        "ManagedScheduledApex": "0Ho3a000000GmbCCAS",
+        "ManagedScheduledApex@1.0.0-6": "04t3a000001enWdAAI",
+        "ManagedScheduledApex@1.0.0-7": "04t3a000001enXCAAY",
+        "ManagedScheduledApex@1.0.0-8": "04t3a000001enXHAAY",
+        "ManagedScheduledApex@1.0.1-1": "04t3a000001enxoAAA",
+        "ManagedScheduledApex@1.0.1-2": "04t3a000001enxtAAA"
+    }
+}

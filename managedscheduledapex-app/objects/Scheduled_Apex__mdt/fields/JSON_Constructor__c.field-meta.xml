@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JSON_Constructor__c</fullName>
+    <defaultValue>&apos;{}&apos;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Populate to define how to construct the object, from the specified class. If not populated newInstance will be used instead of json.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Populate to define how to construct the object, from the specified class.  If not populated newInstance will be used instead of json.</inlineHelpText>
+    <label>JSON Constructor</label>
+    <length>2048</length>
+    <type>LongTextArea</type>
+    <visibleLines>20</visibleLines>
+</CustomField>

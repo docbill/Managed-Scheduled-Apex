@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Priority__c</columns>
+    <columns>Hour__c</columns>
+    <columns>Minute__c</columns>
+    <columns>MustRun__c</columns>
+    <columns>Scope__c</columns>
+    <columns>OwnerId__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>NamespacePrefix__c</columns>
+    <columns>ClassName__c</columns>
+    <columns>JSON_Constructor__c</columns>
+    <columns>JSON_Constructor_2__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

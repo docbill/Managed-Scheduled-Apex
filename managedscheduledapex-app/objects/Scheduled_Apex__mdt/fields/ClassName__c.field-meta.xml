@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ClassName__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This is the name of the class that will be added to the batchable queue. Usually this is the same as the Name field, but not always...</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>This is the name of the class that will be added to the batchable queue. Usually this is the same as the Name field, but not always...</inlineHelpText>
+    <label>Class Name</label>
+    <length>40</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

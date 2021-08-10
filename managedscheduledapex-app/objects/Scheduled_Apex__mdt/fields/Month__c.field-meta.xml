@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Month__c</fullName>
+    <defaultValue>&apos;*&apos;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The month ranges in which the job should invoke.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Set to a range of the month like 1,6,9-12. A * may be used as a wildcard. You may use the first three letters instead of a number.  e.g. JAN,JUN,SEP-DEC</inlineHelpText>
+    <label>Month</label>
+    <length>60</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

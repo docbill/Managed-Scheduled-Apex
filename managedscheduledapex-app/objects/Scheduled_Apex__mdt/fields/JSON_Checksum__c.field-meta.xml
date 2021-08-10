@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JSON_Checksum__c</fullName>
+    <deprecated>false</deprecated>
+    <description>When you update the json there is a test deserialization.  At the sametime a checksum will be created to indicate this has been done.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>When you update the json there is a test deserialization.  At the sametime a checksum will be created to indicate this has been done.  If the deserialization fails the job will be marked inactive and the error message will be shown instead.</inlineHelpText>
+    <label>JSON Checksum</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

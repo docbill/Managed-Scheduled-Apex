@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DayOfMonth_is_a_range</fullName>
+    <active>true</active>
+    <description>Check that day of week is a range of values</description>
+    <errorConditionFormula>AND(
+Active__c,
+NOT(REGEX(BLANKVALUE(DayOfMonth__c,&apos;*&apos;),&apos;^([?*]|([*]/[0-9]+)|(([0-9]+(-[0-9]+)?(/[0-9]+)?,)*[0-9]+(-[0-9]+)?(/[0-9]+)?))$&apos;)))</errorConditionFormula>
+    <errorDisplayField>DayOfMonth__c</errorDisplayField>
+    <errorMessage>Must be &apos;*&apos;,&apos;?&apos;, or a comma separated range of numbers the form 1-3,6-7.  You may also use / to indicate increment.  e.g. 11/10 is the same as 11,21,31</errorMessage>
+</ValidationRule>

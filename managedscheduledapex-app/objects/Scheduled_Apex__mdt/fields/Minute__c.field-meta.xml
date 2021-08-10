@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Minute__c</fullName>
+    <defaultValue>&apos;0&apos;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The minute ranges in which the job should invoke.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Set to a range of minutes like 0,6,30-45.  A * may be used as a wildcard.</inlineHelpText>
+    <label>Minute</label>
+    <length>255</length>
+    <required>true</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

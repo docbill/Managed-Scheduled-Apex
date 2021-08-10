@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JSON_Constructor__c</fullName>
+    <defaultValue>&apos;{}&apos;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Populate to define how to construct the object, from the specified class. Default is {}.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Populate to define how to construct the object, from the specified class. Default is {}.</inlineHelpText>
+    <label>JSON Constructor</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

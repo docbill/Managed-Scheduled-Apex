@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Inactive_Hour</fullName>
+    <active>false</active>
+    <description>Check that an inactive job is not scheduled.</description>
+    <errorConditionFormula>AND(NOT(Active__c),Hour__c!=&apos;-&apos;)</errorConditionFormula>
+    <errorDisplayField>Hour__c</errorDisplayField>
+    <errorMessage>Must be - when a job is inactive.</errorMessage>
+</ValidationRule>

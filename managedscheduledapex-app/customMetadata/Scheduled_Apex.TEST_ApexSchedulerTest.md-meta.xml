@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>TEST.ApexSchedulerTest</label>
+    <protected>false</protected>
+    <values>
+        <field>Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>ClassName__c</field>
+        <value xsi:type="xsd:string">ApexSchedulerTest</value>
+    </values>
+    <values>
+        <field>CronSchedule__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>DayOfMonth__c</field>
+        <value xsi:type="xsd:string">1-31</value>
+    </values>
+    <values>
+        <field>DayOfWeek__c</field>
+        <value xsi:type="xsd:string">?</value>
+    </values>
+    <values>
+        <field>Hour__c</field>
+        <value xsi:type="xsd:string">*</value>
+    </values>
+    <values>
+        <field>JSON_Checksum__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>JSON_Constructor__c</field>
+        <value xsi:type="xsd:string">{}</value>
+    </values>
+    <values>
+        <field>JobName__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Minute__c</field>
+        <value xsi:type="xsd:string">*</value>
+    </values>
+    <values>
+        <field>Month__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>MustRun__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>NamespacePrefix__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Priority__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>Scope__c</field>
+        <value xsi:type="xsd:double">2000.0</value>
+    </values>
+    <values>
+        <field>SkipTestClass__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Task_OwnerId__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Task_Owner_Name__c</field>
+        <value xsi:type="xsd:string">Unknown</value>
+    </values>
+    <values>
+        <field>Year__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

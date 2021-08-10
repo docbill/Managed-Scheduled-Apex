@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ActivityDate__c</fullName>
+    <defaultValue>NOW()</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When created this is the current date.  After the injection is complete it is set to tomorrow&apos;s date.</description>
+    <externalId>false</externalId>
+    <label>Activity Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>
