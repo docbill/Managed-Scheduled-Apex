@@ -14,6 +14,8 @@
 		<members>ApexSchedulerTaskCallableTriggerTest</members>
 		<members>ApexSchedulerTest</members>
 		<members>BatchableWork</members>
+		<members>Cleanup_Batchable</members>
+		<members>Cleanup_BatchableTest</members>
 		<members>Nameable</members>
 	</types>
 	<types>

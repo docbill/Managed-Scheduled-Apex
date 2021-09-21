@@ -3,4 +3,5 @@
     <testClassName>AbstractBatchableTest</testClassName>
     <testClassName>ApexScheduleManagerTest</testClassName>
     <testClassName>ApexSchedulerTest</testClassName>
+    <testClassName>Cleanup_BatchableTest</testClassName>
 </ApexTestSuite>
